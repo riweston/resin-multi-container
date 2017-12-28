@@ -1,4 +1,4 @@
-FROM resin/raspberrypi2-debian
+FROM resin/rpi-raspbian:latest
 MAINTAINER justin@dray.be
 
 # Let's start with some basic stuff.
@@ -24,3 +24,4 @@ WORKDIR /apps
 VOLUME /var/lib/docker
 ADD start /start
 CMD /start
+
