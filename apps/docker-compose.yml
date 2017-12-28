@@ -5,4 +5,4 @@ volumes:
 
 services:
     unifi:
-        build: unifi
+        image: ryansch/unifi-rpi:latest
